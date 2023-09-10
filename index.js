@@ -37,9 +37,9 @@ function ordenarItems(items) {
   alert.removeAttribute('hidden');
   alert.innerHTML = `
   <div class="text-break">
-    <p>Lista 1: ${lista1.toString()}</p>
-    <p>Lista 2: ${lista2.toString()}</p>
-    <p>Combinación y ordenamiento descendente: ${lista3.toString()}</p>
+    <p>Lista 1: [${lista1.toString()}]</p>
+    <p>Lista 2: [${lista2.toString()}]</p>
+    <p>Combinación y ordenamiento descendente: [${lista3.toString()}]</p>
   </div>
   `;
 }
